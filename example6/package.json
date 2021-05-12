@@ -1,0 +1,19 @@
+{
+  "name": "example6",
+  "version": "1.0.0",
+  "description": "[TypeScript で gRPC の streaming RPC を使ったチャットのサンプル](https://daikiojm.hatenablog.com/entry/2018/12/24/002656)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.3.1",
+    "@grpc/proto-loader": "^0.6.2",
+    "protobufjs": "^6.11.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
