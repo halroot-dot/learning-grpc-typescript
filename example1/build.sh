@@ -2,12 +2,13 @@
 
 set -eu
 
-NPM_BI=$(npm bin)
-PLUGIN_GRPC=$(npm bin)/grpc_tools_node_protoc_plugin
-PLUGIN_TS=$(npm bin)/protoc-gen-ts
+export PATH="$PATH:$(npm bin)"
 
 PROTO_SRC=./proto
 PROTO_DEST=./src/proto
+
+PLUGIN_GRPC=$(npm bin)/grpc_tools_node_protoc_plugin
+PLUGIN_TS=$(npm bin)/protoc-gen-ts
 
 mkdir -p ${PROTO_DEST}
 

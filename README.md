@@ -1,3 +1,3 @@
-# これは何?
+# Overview
 
-webで参考になるgRPCのexampleを試してみる。
+gRPC に関して、web で参考になる example を試してみる。

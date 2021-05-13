@@ -8,8 +8,8 @@ const client = new book_grpc_pb.BookServiceClient(
 );
 
 const req = new book_pb.GetBookRequest();
-req.setId("book1");
 
+req.setId("book1");
 client.getBook(req, function (error, result) {
   if (error) console.log("Error: ", error);
   else console.log(result.toObject());

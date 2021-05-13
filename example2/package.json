@@ -1,5 +1,5 @@
 {
-  "name": "example6",
+  "name": "example2",
   "version": "1.0.0",
   "description": "[TypeScript で gRPC の streaming RPC を使ったチャットのサンプル](https://daikiojm.hatenablog.com/entry/2018/12/24/002656)",
   "main": "index.js",
